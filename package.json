@@ -1,0 +1,16 @@
+{
+  "name": "create-extension",
+  "version": "0.0.1",
+  "bin": {
+    "ce": "./bin/cli.js"
+  },
+  "description": "Build and package Chrome/Firefox extensions with utilities.",
+  "main": "index.js",
+  "author": "Adam Quinton",
+  "dependencies": {
+    "files-in-dir": "^1.0.0",
+    "fs-sync-utils": "^1.1.0",
+    "jszip": "^3.2.2",
+    "minimist": "^1.2.0"
+  }
+}
