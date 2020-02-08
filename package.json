@@ -1,12 +1,17 @@
 {
-  "name": "create-extension",
+  "name": "create-extension-cli",
   "version": "0.0.1",
   "bin": {
     "ce": "./bin/cli.js"
   },
   "description": "CLI to create Chrome/Firefox Extensions",
   "main": "index.js",
-  "keywords": [ "extension", "CLI", "Chrome", "Firefox" ],
+  "keywords": [
+    "extension",
+    "CLI",
+    "Chrome",
+    "Firefox"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/zvakanaka/create-extension"

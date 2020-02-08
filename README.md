@@ -9,7 +9,7 @@ CLI to create Chrome/Firefox Extensions
 [NPM Stats Extension](https://github.com/zvakanaka/npm-stats-extension)
 
 # Usage
-`$ npm install --global create-extension`  
+`$ npm install --global create-extension-cli`  
 
 `$ mkdir my-extension`
 
