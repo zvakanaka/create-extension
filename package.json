@@ -4,9 +4,11 @@
   "bin": {
     "ce": "./bin/cli.js"
   },
-  "description": "Build and package Chrome/Firefox extensions with utilities.",
+  "description": "CLI to create Chrome/Firefox Extensions",
   "main": "index.js",
+  "keywords": [ "extension", "CLI", "Chrome", "Firefox" ],
   "author": "Adam Quinton",
+  "license": "MIT",
   "dependencies": {
     "files-in-dir": "^1.0.0",
     "fs-sync-utils": "^1.1.0",
