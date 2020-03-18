@@ -75,9 +75,9 @@ async function fetchHtml(url, options, useCache = false) { // cache response and
 
 function cleanBody(bodyString) {
   const bodyClean = bodyString
-    .replace(/<script/g, '<scmipt')
+    .replace(/<script/g, '<smcript')
     .replace(/<img /g, '<smimg ')
     .replace(/<iframe/g, '<smiframe')
-    .replace(/<style/g, '<smyle');
+    .replace(/<style/g, '<smtyle');
   return bodyClean;
 }
