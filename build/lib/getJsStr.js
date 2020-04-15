@@ -2,7 +2,8 @@ const file = require('fs-sync-utils');
 const filesInDir = require('files-in-dir');
 
 module.exports = function getJsStr() {
-  const jsFiles = [ `${__dirname}/../../client/utils.js`, ...filesInDir('src/js', ['js']) ];
+  const srcJsFiles = filesInDir('src/js', ['js']);
+  const jsFiles = [ `${__dirname}/../../client/utils.js`, ...(Array.isArray(srcJsFiles) ? srcJsFiles : []) ];
   const jsStr = jsFiles.reduce((acc, cur, i) => {
     const fileName = i ? `src/js/${cur}` : cur;
     const displayedFileName = i ? `'${fileName}'` : `'utils.js' (helper from create-extension)`;

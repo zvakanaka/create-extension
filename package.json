@@ -1,6 +1,6 @@
 {
   "name": "create-extension-cli",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "bin": {
     "ce": "./bin/cli.js"
   },
@@ -21,7 +21,7 @@
   "dependencies": {
     "files-in-dir": "^1.0.0",
     "fs-sync-utils": "^1.1.0",
-    "jszip": "^3.2.2",
+    "jszip": "^3.3.0",
     "minimist": "^1.2.5"
   }
 }

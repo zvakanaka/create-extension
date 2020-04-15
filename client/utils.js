@@ -81,3 +81,15 @@ function cleanBody(bodyString) {
     .replace(/<style/g, '<smtyle');
   return bodyClean;
 }
+
+function applyStyle(str) {
+  const styleEl = document.createElement('style');
+  styleEl.innerHTML = str;
+  document.head.appendChild(styleEl);
+}
+
+function appendHtml(str) {
+  const div = document.createElement('div');
+  div.innerHTML = str;
+  document.body.appendChild(div);
+}
