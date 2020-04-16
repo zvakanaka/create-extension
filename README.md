@@ -6,7 +6,8 @@ CLI to create Chrome/Firefox Extensions
 - [x] Each JS file wrapped in iife
 
 ## Example
-[NPM Stats Extension](https://github.com/zvakanaka/npm-stats-extension)
+[NPM Stats Extension](https://github.com/zvakanaka/npm-stats-extension) (JS)
+[Hacker News Dark Mode Extension](https://github.com/zvakanaka/hacker-news-dark-mode-extension) (CSS)
 
 # Usage
 `$ npm install --save-dev create-extension-cli`
@@ -23,11 +24,11 @@ Create CSS file(s) (ending in `.css`) in `src/css`.
 ## Build extension
 (JS and CSS is output to `dist` directory)
 
-`$ ce`
+`$ npx ce`
 
 Generate `Archive.zip` with only the essentials needed to run (for Firefox):
 
-`$ ce zip`
+`$ npx ce zip`
 
 ## Loading Your Extension
 ### Firefox
